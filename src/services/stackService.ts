@@ -1,9 +1,9 @@
 const stack: string[] = [];
 
-export const pushToStack = (item: string): void => {
+export function pushToStack(item: string): void {
   stack.push(item);
-};
+}
 
-export const popFromStack = (): string | null => {
-  return stack.pop() || null;
-};
+export function popFromStack(): string | null {
+  return stack.length > 0 ? stack.pop()! : null;
+}
