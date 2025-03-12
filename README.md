@@ -3,7 +3,10 @@
 A TypeScript-based Fastify application implementing an in-memory stack (LIFO) and a key-value store with optional TTL.
 
 ## Setup
-1. Extract the archive: `tar -xf filename.tar`
+1. **Extract the Archive**
+   ```bash
+   tar -xf submission.tar
+   ```
 2. Install dependencies: `npm install`
 3. Start the server: `npm start`
 4. Run tests: `npm test`
